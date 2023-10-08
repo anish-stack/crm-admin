@@ -1,0 +1,38 @@
+/* Header.css */
+.navbar-admin {
+    color: #242d49;
+    text-align: center;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo-admin {
+    font-size: 24px;
+
+  }
+  
+  .navlist-admin {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .navlist-admin li {
+    margin: 0;
+  }
+  
+  .navlist-admin li a {
+    text-decoration: none;
+    color: #242d49;
+    font-weight: bold;
+  }
+  
+  .navlist-admin li a:hover {
+    color: #61dafb; /* Change color on hover */
+  }
+  

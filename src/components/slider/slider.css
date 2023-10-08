@@ -1,0 +1,41 @@
+/* Single Image Slider container */
+.single-image-slider {
+    display: flex;
+    flex-direction: column;
+    width: 1005;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    transition: all 0.5s linear;
+  }
+  
+  /* Image */
+  .single-image-slider img {
+    max-width: 100%;
+    height: auto;
+    transition: all 0.5s linear;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+  }
+  
+  /* Buttons */
+  .prev-button,
+  .next-button {
+    background: #fca61f;
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+
+  .btn-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

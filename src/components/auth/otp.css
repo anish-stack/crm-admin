@@ -1,0 +1,53 @@
+/* OTP Verification container */
+.otp-verification {
+    text-align: center;
+    margin: 20px auto;
+    height: 400px;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* OTP input container */
+  .otp-input-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 25px;
+    top: 70px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* OTP input box */
+  .otp-input-container input[type="text"] {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    outline: none;
+  }
+  .hidden{
+    display: none;  
+  }
+  /* OTP input box focus style */
+  input[type="text"]:focus {
+    border-color: #0056b3;
+  }
+  
+  .submit-button{
+    border: 0;
+    border-radius: 20px;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    top: 90px;
+    font-weight: 500;
+    padding: 8px 25px;
+    background-color: #f5c32c;
+  }
